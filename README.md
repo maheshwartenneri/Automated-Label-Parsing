@@ -9,7 +9,7 @@
 ## Usage
 <code>python pytesseract-example.py --image "path/to/image/file" --east "path/to/east/file"</code>
 
-<code>python .\pytesseract-example.py --image '.\GE-Model-Tag-Cropped.jpg' --east frozen_east_text_detection.pb</code>
+<code>python .\pytesseract-example.py --image '.\GE-Model-Tag-Cropped.jpg' --east "../../models/frozen_east_text_detection.pb"</code>
 
 
 ## Setup steps for Python-tesseract on Windows
