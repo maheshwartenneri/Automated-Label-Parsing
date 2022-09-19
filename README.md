@@ -7,10 +7,18 @@
 2) Apply OCR algorithm to parse model and serial numbers of appliance in claim
 
 ## Usage for Pytesseract with EAST detector script
+Starting from the home directory of the project, run the following command:
 <code>python src/exploratory/pytesseract-with-east-example.py --image "path/to/image/file" --east "path/to/east/file"</code>
 
+For example:
 <code>python src/exploratory/pytesseract-with-east-example.py --image "../../images/GE-Model-Tag-Cropped.jpg" --east "../../models/frozen_east_text_detection.pb"</code>
 
+## Usage for preprocessing script
+Starting from the home directory of the project, run the following command with the image path:
+<code>python src/preprocess_image.py --image "path/to/image/file"</code>
+
+For example:
+<code>python src/preprocess_image.py --image "../images/shadow-image-orig.png"</code>
 
 ## Setup steps for Python-tesseract on Windows
 (copied from https://stackoverflow.com/questions/50951955/pytesseract-tesseractnotfound-error-tesseract-is-not-installed-or-its-not-i)
