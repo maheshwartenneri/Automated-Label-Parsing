@@ -8,7 +8,6 @@ if __name__ == "__main__":
     # construct the argument parser and parse the arguments
     ap = argparse.ArgumentParser()
     ap.add_argument("-i", "--image", type=str, help="path to input image")
-    ap.add_argument("-t", "--transf", type=str, help="transformations to apply: r(otation), c(rop), ")
     args = vars(ap.parse_args())
     
     image_path = args["image"]
