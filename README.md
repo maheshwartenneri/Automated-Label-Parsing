@@ -9,8 +9,15 @@
 ## Usage for Pytesseract with EAST detector script
 <code>python src/exploratory/pytesseract-with-east-example.py --image "path/to/image/file" --east "path/to/east/file"</code>
 
+For example:
 <code>python src/exploratory/pytesseract-with-east-example.py --image "../../images/GE-Model-Tag-Cropped.jpg" --east "../../models/frozen_east_text_detection.pb"</code>
 
+## Usage for preprocessing script
+To use the preprocessing script, run the script with the image path:
+<code>python src/exploratory/preprocess_image.py --image "path/to/image/file"</code>
+
+For example:
+<code>python src/exploratory/preprocess_image.py --image "../images/shadow-image-orig.png"</code>
 
 ## Setup steps for Python-tesseract on Windows
 (copied from https://stackoverflow.com/questions/50951955/pytesseract-tesseractnotfound-error-tesseract-is-not-installed-or-its-not-i)
