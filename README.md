@@ -14,7 +14,7 @@ For example:
 <code>python src/exploratory/pytesseract-with-east-example.py --image "../../images/GE-Model-Tag-Cropped.jpg" --east "../../models/frozen_east_text_detection.pb"</code>
 
 ## Usage for preprocessing script
-Starting from the home directory of the project, run the following command, run the script with the image path:
+Starting from the home directory of the project, run the following command with the image path:
 <code>python src/preprocess_image.py --image "path/to/image/file"</code>
 
 For example:
